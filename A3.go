@@ -33,7 +33,7 @@ func main() {
 	word, _ = reader.ReadString('\n')
 	word = strings.TrimSpace(word)
 
-	// find if the word is in the sentence 
+	// find if the word is in the sentence
 	for counter := 0; counter <= len(sentence)-len(word); counter++ {
 
 		var match bool = true
